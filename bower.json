@@ -1,0 +1,20 @@
+{
+  "name": "benjaminreid.me",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nouveller/benjaminreid.me",
+  "authors": [
+    "Benjamin Reid <benjamin@nouveller.com>"
+  ],
+  "description": "My personal blog",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "inuit.css": "~5.0.0"
+  }
+}
