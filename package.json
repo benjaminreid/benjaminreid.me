@@ -1,0 +1,20 @@
+{
+  "name": "benjaminreid.me",
+  "version": "0.0.0",
+  "description": "My personal blog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nouveller/benjaminreid.me"
+  },
+  "author": "Benjamin Reid",
+  "bugs": {
+    "url": "https://github.com/nouveller/benjaminreid.me/issues"
+  },
+  "homepage": "https://github.com/benjaminreid/benjaminreid.me",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "load-grunt-tasks": "~0.2.1",
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
