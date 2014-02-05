@@ -23,7 +23,7 @@
  * and introducing objects and abstractions is as simple as switching the
  * following variables to `true`.
  */
-$use-grids:         false;
+$use-grids:         true;
 $use-flexbox:       false;
 $use-columns:       false;
 $use-nav:           false;
@@ -58,7 +58,9 @@ $use-greybox:       false;
 /**
  * Place any variables that should override inuit.css’ defaults here.
  */
-$base-font-family: 'ProximaNova-Regular';
+$base-font-family: 'ProximaNova-Regular', 'Helvetica', 'Arial', sans-serif;
+$base-font-size:    19px;
+$base-line-height:  27px;
 
 
 
