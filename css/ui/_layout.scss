@@ -7,3 +7,12 @@
   border-radius: $brand-round;
   box-shadow: 0 3px 0 darken($brand-colour, 15%);
 }
+
+@include media-query(palm) {
+
+  .gw {
+    width: 100%;
+    padding: 30px;
+    border-radius: 0;
+  }
+}
