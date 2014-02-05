@@ -1,3 +1,4 @@
 name: Benjamin Reid
 markdown: redcarpet
 pygments: true
+permalink: /read/:title
