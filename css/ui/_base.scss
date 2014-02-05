@@ -1,3 +1,12 @@
-html {
+body {
+  background: $brand-color;
   color: #3D3D3D;
+}
+
+a {
+  color: $brand-color;
+
+  &:hover {
+    color: lighten($brand-color, 10%);
+  }
 }
