@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Fresh"
+date:   2014-02-05 13:39:28
+---
+
+It's time for a fresh start. This site has been everything and nothing, but finally I've found a use for it that I'm happy to role with.
+
+For the foreseeable future this will be a place to post about code, my musings, life things and every so often, rants. It's part of a larger online de-clutter which I'm trying out at the moment. I won't go into too much detail for now but [nouveller.com/articles](http://nouveller.com/articles) will soon no longer cease to exist.
+
+That's all to say for now really, this will just get the ball rolling. Though, I'd like to quickly point out that I'm running this on [Jekyll](http://jekyllrb.com) (after much deliberation) and hosting it on the rather handy [GitHub Pages](http://pages.github.com/). There's a post already lined up about why I chose to go with this setup, so [hold onto your butts](http://www.youtube.com/watch?v=-W6as8oVcuM).
+
+P.S. You can fork and fix any spelling mistakes over at [the site's GitHub page](https://github.com/nouveller/benjaminreid.me).
