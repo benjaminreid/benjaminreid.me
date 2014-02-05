@@ -4,5 +4,6 @@
   background: #fff;
   margin: 60px auto;
   padding: 50px;
-  border-radius: 2px;
+  border-radius: $brand-round;
+  box-shadow: 0 3px 0 darken($brand-colour, 15%);
 }

@@ -1,6 +1,14 @@
 body {
   background: $brand-color;
-  color: #3D3D3D;
+  color: $font-colour;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bitter';
+
+  a {
+    color: lighten($font-colour, 10%);
+  }
 }
 
 a {
