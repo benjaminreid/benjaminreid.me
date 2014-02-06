@@ -1,11 +1,5 @@
-(function() {
-  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-  var disqus_shortname = 'benjaminreidme'; // required: replace example with your forum shortname
-
-  /* * * DON'T EDIT BELOW THIS LINE * * */
-  (function() {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-})();
+(function(d,t) {
+    var c=d.createElement(t);s=d.getElementsByTagName(t)[0];
+    c.async=1;c.src='http://benjaminreidme.disqus.com/embed.js';
+    s.parentNode.insertBefore(c,s)
+})(document,'script');
