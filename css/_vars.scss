@@ -59,8 +59,8 @@ $use-greybox:       false;
  * Place any variables that should override inuit.css’ defaults here.
  */
 $base-font-family: 'ProximaNova-Regular', 'Helvetica', 'Arial', sans-serif;
-$base-font-size:    19px;
-$base-line-height:  27px;
+$base-font-size: 19px;
+$base-line-height: 27px;
 $kilo-size: 52px;
 $brand-color: #FF7619;
 $brand-round: 3px;
@@ -76,3 +76,4 @@ $milli-size: 16px;
  */
 $font-colour: #3D3D3D;
 $brand-colour: $brand-color;
+$large-padding: 50px;

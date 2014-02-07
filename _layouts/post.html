@@ -3,7 +3,9 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
-{{ content }}
+<div class="post">
+  {{ content }}
+</div>
 <time class="time">{{ page.date | date: "%A, %d %B %Y" }}</time>
 
 <div class="comments">
