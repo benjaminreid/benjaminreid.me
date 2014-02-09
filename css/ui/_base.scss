@@ -5,9 +5,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bitter';
+  margin-bottom: 0.5em;
 
   a {
     color: lighten($font-colour, 10%);
+  }
+
+  & + hr {
+    margin-top: -15px;
+    margin-bottom: 25px;
   }
 }
 
@@ -17,6 +23,14 @@ a {
   &:hover {
     color: lighten($brand-color, 10%);
   }
+}
+
+hr {
+  border: none;
+  height: 1px;
+  display: block;
+  background: #E6E6E6;
+  margin: 10px 0 10px 0;
 }
 
 .time {
