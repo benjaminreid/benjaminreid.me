@@ -24,6 +24,7 @@
 /**
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
+@import "mixins";
 @import "ui/fonts";
 @import "ui/base";
 @import "ui/syntax";
@@ -34,3 +35,5 @@
 @import "ui/modules/post-list";
 @import "ui/modules/comments";
 @import "ui/modules/post";
+@import "ui/modules/nav-social";
+@import "ui/modules/page-footer";

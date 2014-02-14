@@ -1,0 +1,20 @@
+.nav--social {
+  font-size: 24px;
+
+  a {
+    color: $font-colour;
+    text-decoration: none;
+  }
+}
+
+.icon-social-twitter {
+  @include link(#55ACEE);
+}
+
+.icon-social-github {
+  @include link(#333333);
+}
+
+.icon-social-google-plus {
+  @include link(#dd4b39);
+}
