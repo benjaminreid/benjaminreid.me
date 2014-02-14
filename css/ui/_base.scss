@@ -33,6 +33,13 @@ hr {
   margin: 10px 0 10px 0;
 }
 
+code {
+  font-family: 'Inconsolata', 'Courier New', 'Courier';
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 28px;
+}
+
 .time {
   text-align: right;
   font-size: $milli-size;
