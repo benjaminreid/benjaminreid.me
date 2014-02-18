@@ -46,3 +46,9 @@ code {
   display: block;
   color: $colour-grey;
 }
+
+.full--bleed {
+  margin-left: -$large-padding;
+  margin-right: -$large-padding;
+  margin-bottom: 27px;
+}
