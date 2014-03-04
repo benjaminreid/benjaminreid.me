@@ -1,4 +1,6 @@
 name: Benjamin Reid
 markdown: redcarpet
+redcarpet:
+  extensions: ["strikethrough"]
 pygments: true
 permalink: /post/:title
