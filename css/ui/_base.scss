@@ -52,3 +52,11 @@ code {
   margin-right: -$large-padding;
   margin-bottom: 27px;
 }
+
+@include media-query(palm) {
+
+  .full--bleed {
+    margin-left: -$small-padding;
+    margin-right: -$small-padding;
+  }
+}
