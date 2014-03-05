@@ -1,6 +1,5 @@
 .highlight {
-  margin-left: -$large-padding;
-  margin-right: -$large-padding;
+  @extend .full--bleed;
   background: #2B2B2B;
   padding: 25px;
   margin-bottom: 30px;
