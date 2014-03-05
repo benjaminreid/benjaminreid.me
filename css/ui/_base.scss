@@ -40,6 +40,11 @@ code {
   line-height: 28px;
   white-space: pre;
   overflow-y: scroll;
+
+  p & {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
 }
 
 .time {
