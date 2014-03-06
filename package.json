@@ -12,9 +12,7 @@
   },
   "homepage": "https://github.com/benjaminreid/benjaminreid.me",
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "load-grunt-tasks": "~0.2.1",
-    "grunt-contrib-sass": "~0.6.0",
-    "grunt-contrib-watch": "~0.5.3"
+    "gulp": "^3.5.5",
+    "gulp-ruby-sass": "^0.4.0"
   }
 }
