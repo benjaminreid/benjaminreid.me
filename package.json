@@ -11,10 +11,5 @@
     "url": "https://github.com/nouveller/benjaminreid.me/issues"
   },
   "homepage": "https://github.com/benjaminreid/benjaminreid.me",
-  "devDependencies": {
-    "grunt": "~0.4.2",
-    "load-grunt-tasks": "~0.2.1",
-    "grunt-contrib-sass": "~0.6.0",
-    "grunt-contrib-watch": "~0.5.3"
-  }
+  "devDependencies": {}
 }
