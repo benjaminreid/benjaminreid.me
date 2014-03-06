@@ -20,4 +20,4 @@ gulp.task('watch', function() {
   gulp.watch(paths.sass.watch, ['sass']);
 });
 
-gulp.task('default', function() { });
+gulp.task('default', ['watch']);
