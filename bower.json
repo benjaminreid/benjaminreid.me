@@ -14,7 +14,8 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
-    "inuit.css": "~5.0.0"
+  "devDependencies": {},
+  "dependencies": {
+    "inuit.css": "~5.0.1"
   }
 }
