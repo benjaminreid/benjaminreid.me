@@ -10,7 +10,7 @@ Straight off, I can say without a shadow of a doubt that my favourite game of 20
 
 And I'm pretty sure a lot people would say the exact same thing due to it's huge popularity and near perfect review scores but I enjoyed the experience that much that it comes out as one of my favourite games of all time &mdash; up there with the Final Fantasy's and Metal Gear Solid's. Which is some hefty praise.
 
-Rather than give it a in-depth review (it needs no more of these), or pick it apart piece by piece, I'm just going to pick a few elements that made it stand out for me.
+Rather than give it an in-depth review (it needs no more of these), or pick it apart piece by piece, I'm just going to pick a few elements that made it stand out for me.
 
 ### Gore, done right
 
@@ -38,4 +38,10 @@ They were slammed together though chance but stuck and survived together.
 
 {% include img.html src="my-favourite-game-of-2013/ambush.jpg" alt="The Last Of Us - Ambush" %}
 
-I could go on and on, as I adore many aspects of the game but these are just of the few best bits.
+I could go on and on, as I adore so many aspects of this game but I'm going to keep this short and sweet.
+
+### Final words
+
+The Last Of Us is a masterpiece, I implore you to play it if you are into your games and even if you are not.
+
+I tip my hat to you Naughty Dog.
