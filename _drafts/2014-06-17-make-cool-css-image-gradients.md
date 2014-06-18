@@ -5,7 +5,7 @@ date:   2014-06-17 12:00:00
 ---
 
 You've got a rad image of a cityscape to chuck on your new site but wait&hellip;
-it's not looking quite cool enough. Time for some *zing!*
+it's not looking quite cool enough right? Time for some *zing!*
 
 {% include img.html src="make-cool-css-image-gradients/new-york.jpg" alt="NYC" %}
 
@@ -87,7 +87,7 @@ And here we have it, one rad-tastic CSS gradient image.
 We can take this one step further and bring it more inline with say what
 we could achieve using Photoshop.
 
-This time we our HTML is simpler, yet we lack an image definition. There are a
+This time our HTML is simpler, yet we lack an image definition. There are a
 few different ways to get around this, but lets run with this for now.
 
 {% highlight html %}
@@ -106,8 +106,12 @@ backgrounds (the .jpg and the gradient) followed by a CSS blend mode.
 }
 {% endhighlight %}
 
-This gives us a much stronger result and results in some cleaner code. The blend
+This gives us a much stronger outcome and results in some cleaner code. The blend
 modes can be played with to your hearts content along with the gradient to create
-that 80's flair.
+that 80s flair.
 
 <div class="code-example"><p data-height="520" data-theme-id="0" data-slug-hash="tsycx" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/nouveller/pen/tsycx/'>tsycx</a> by Benjamin Reid (<a href='http://codepen.io/nouveller'>@nouveller</a>) on <a href='http://codepen.io'>CodePen</a>.</p><script async src="//codepen.io/assets/embed/ei.js"></script></div>
+
+Don't get me wrong, blend modes and the 80s ~~were~~ are cool but please use this
+wisely. You may emptly stare at your screen wondering how to make your images better but
+this isn't always the way, 99% of images do the talking for themselves.
