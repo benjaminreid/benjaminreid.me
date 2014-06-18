@@ -80,7 +80,7 @@ hip image of NYC.
 
 And here we have it, one rad-tastic CSS gradient image.
 
-<div class="code-example"><p data-height="520" data-theme-id="0" data-slug-hash="uodfa" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/nouveller/pen/uodfa/'>uodfa</a> by Benjamin Reid (<a href='http://codepen.io/nouveller'>@nouveller</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<div class="code-example"><p data-height="520" data-theme-id="0" data-slug-hash="uodfa" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/nouveller/pen/uodfa/'>uodfa</a> by Benjamin Reid (<a href='http://codepen.io/nouveller'>@nouveller</a>) on <a href='http://codepen.io'>CodePen</a>.</p></div>
 
 ### Taking it further
 
@@ -110,10 +110,10 @@ This gives us a much stronger outcome and results in some cleaner code. The blen
 modes can be played with to your hearts content along with the gradient to create
 that 80s flair.
 
-<div class="code-example"><p data-height="520" data-theme-id="0" data-slug-hash="tsycx" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/nouveller/pen/tsycx/'>tsycx</a> by Benjamin Reid (<a href='http://codepen.io/nouveller'>@nouveller</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<div class="code-example"><p data-height="520" data-theme-id="0" data-slug-hash="tsycx" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/nouveller/pen/tsycx/'>tsycx</a> by Benjamin Reid (<a href='http://codepen.io/nouveller'>@nouveller</a>) on <a href='http://codepen.io'>CodePen</a>.</p></div>
 
 Don't get me wrong, blend modes and the 80s ~~were~~ are cool but please use this
 wisely. You may emptly stare at your screen wondering how to make your images better but
 this isn't always the way, 99% of images do the talking for themselves.
 
-<script async src="//codepen.io/assets/embed/ei.js"></script></div>
+<script async src="//codepen.io/assets/embed/ei.js"></script>
