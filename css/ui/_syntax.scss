@@ -1,4 +1,4 @@
-.highlight {
+.highlight, .code-example {
   @extend .full--bleed;
   background: #2B2B2B;
   padding: 25px;
@@ -7,6 +7,11 @@
   pre {
     margin-bottom: 0;
   }
+}
+
+.code-example {
+  background: #FFF;
+  padding: 0;
 }
 
 .highlight .hll { background-color: #49483e }
