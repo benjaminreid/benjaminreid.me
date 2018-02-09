@@ -1,7 +1,0 @@
-@mixin link($hex, $amount: 10%) {
-  color: $hex;
-
-  &:hover {
-    color: lighten($hex, $amount);
-  }
-}
