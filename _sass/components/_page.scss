@@ -1,0 +1,11 @@
+.page {
+  background-color: $color-orange;
+  margin: 0;
+  display: grid;
+  grid-template-areas: "content";
+
+  @include above($break-point) {
+    grid-template-areas: ". content .";
+    grid-template-columns: auto minmax($break-point, 690px) auto;
+  }
+}
