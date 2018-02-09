@@ -1,5 +1,10 @@
 .content {
   grid-area: content;
-  padding: 0 $spacing;
+  padding: $spacing;
   background-color: white;
+  border-radius: $spacing / 6;
+
+  @include above($break-point) {
+    padding: $spacing * 2;
+  }
 }
