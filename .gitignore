@@ -1,5 +1,3 @@
 _site
-.DS_Store
-css/components
 .sass-cache
-node_modules
+.jekyll-metadata
