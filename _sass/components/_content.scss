@@ -2,7 +2,8 @@
   --spacing: #{$spacing};
   grid-area: content;
   background-color: white;
-  border-radius: $spacing / 6;
+  margin-top: $spacing / 4;
+  padding-top: $spacing;
   display: grid;
   grid-template-columns: var(--spacing) 1fr var(--spacing);
 
