@@ -2,8 +2,8 @@
   --spacing: #{$spacing};
   grid-area: content;
   background-color: white;
-  margin-top: $spacing / 4;
-  padding-top: $spacing;
+  padding-top: var(--spacing);
+  padding-bottom: var(--spacing);
   display: grid;
   grid-template-columns: var(--spacing) 1fr var(--spacing);
 
@@ -13,5 +13,14 @@
 
   > * {
     grid-column: 2 / -2;
+  }
+
+  blockquote,
+  .image {
+    grid-column: 1 / -1;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
   }
 }
