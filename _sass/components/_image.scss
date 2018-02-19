@@ -1,0 +1,9 @@
+.image {
+  max-width: 100%;
+  grid-column: 1 / -1;
+
+  img {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+}
