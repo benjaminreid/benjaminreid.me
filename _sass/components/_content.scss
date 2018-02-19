@@ -1,6 +1,5 @@
 .content {
   --spacing: #{$spacing};
-  grid-area: content;
   background-color: white;
   padding-top: var(--spacing);
   padding-bottom: var(--spacing);
