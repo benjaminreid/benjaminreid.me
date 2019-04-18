@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "./header"
-import { useSiteMetadata } from "../hooks"
+import useSiteMetadata from "../hooks/use-site-metadata"
 import "./layout.css"
 
 const Layout = ({ children }) => {
