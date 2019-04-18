@@ -6,7 +6,7 @@ const Photography = () => (
   <Layout>
     <div>
       <h1>Photography</h1>
-      <img src={snowLeopards} />
+      <img src={snowLeopards} alt="Snow Leopards" />
     </div>
   </Layout>
 )
