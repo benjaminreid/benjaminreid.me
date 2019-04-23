@@ -5,7 +5,7 @@ export default function usePosts() {
     allMarkdownRemark: { edges },
   } = useStaticQuery(graphql`
     query PostsQuery {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
         edges {
           node {
             frontmatter {
