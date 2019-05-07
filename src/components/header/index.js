@@ -1,20 +1,10 @@
 import { Link } from "gatsby"
 import React from "react"
+import { Container, Wrapper } from "./styles"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+  <Container>
+    <Wrapper>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
@@ -26,8 +16,8 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-    </div>
-  </header>
+    </Wrapper>
+  </Container>
 )
 
 Header.defaultProps = {
