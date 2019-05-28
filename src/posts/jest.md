@@ -12,20 +12,20 @@ of setting up and having to write verbose tests, Jest may be up your alley.
 Installing Jest to a new or existing project is easy. Simply install it with
 NPM and then&hellip;
 
-{% highlight cli %}
+```cli
 npm install jest --save-dev
-{% endhighlight %}
+```
 
 &hellip;add these two scripts to your `package.json`.
 
-{% highlight json %}
+```json
 {
   "scripts": {
     "test": "jest",
     "test:watch": "npm test -- --watch"
   }
 }
-{% endhighlight %}
+```
 
 You can run your tests with `npm run test` or have Jest watch for changes in
 your code and run the tests with each change using `npm run test:watch`.
@@ -44,26 +44,26 @@ adds them together.
 
 `sum.js`
 
-{% highlight javascript %}
+```javascript
 function sum(a, b) {
   return a + b;
 }
 
 export default sum;
-{% endhighlight %}
+```
 
 And here's the test. Fairly straight forward looking right? We define a test,
 tell Jest what function to run and what we expect the outcome to be.
 
 `sum.test.js`
 
-{% highlight javascript %}
+```javascript
 import sum from './sum';
 
 test('should add two numbers together', () => {
   expect(sum(5, 5)).toBe(10);
 });
-{% endhighlight %}
+```
 
 Note in the above example I’m importing my `sum` function but where are `test` and
 `expect` coming from? These are in the global namespace when the tests are run
@@ -71,7 +71,7 @@ by Jest.
 
 Now if you run `npm run test` you shall see Jest’s rather nice output.
 
-{% highlight cli %}
+```cli
 > jest
 
  PASS  ./sum.test.js
@@ -82,7 +82,7 @@ Tests:       1 passed, 1 total
 Snapshots:   0 total
 Time:        1.116s
 Ran all test suites.
-{% endhighlight %}
+```
 
 At a basic level, that’s all there is to it. Of course there are other types
 of tests and the like but this should be enough to get you going.
@@ -94,7 +94,7 @@ If you’ve taken a likening to Jest you can [read up on the it](https://faceboo
 Well fear not, Jest still has the common `describe` and `it` blocks that you may
 see in other frameworks that help separate out your tests.
 
-{% highlight javascript %}
+```javascript
 import sum from './sum';
 
 describe('sum', () => {
@@ -108,4 +108,4 @@ describe('sum', () => {
   });
 
 });
-{% endhighlight %}
+```
