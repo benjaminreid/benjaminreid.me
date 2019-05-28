@@ -1,6 +1,7 @@
 import React from "react"
-import Header from "./header"
-import useSiteMetadata from "../hooks/use-site-metadata"
+import Header from "../header"
+import useSiteMetadata from "../../hooks/use-site-metadata"
+import { Main } from "./styles"
 
 const Layout = ({ children }) => {
   const { title } = useSiteMetadata()
@@ -8,7 +9,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={title} />
-      <main>{children}</main>
+      <Main>{children}</Main>
       <footer>Benjamin Reid</footer>
     </>
   )
