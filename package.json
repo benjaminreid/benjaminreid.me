@@ -21,7 +21,8 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "sanitize.css": "^8.0.0",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "typeface-rubik": "^0.0.72"
   },
   "devDependencies": {
     "gatsby-cli": "^2.5.9",
