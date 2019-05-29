@@ -1,16 +1,19 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { Article } from "./styles"
+import Layout from "./../layout"
 
 const Post = ({
   data: {
     markdownRemark: { html, frontmatter },
   },
 }) => (
-  <Article>
-    <h1>{frontmatter.title}</h1>
-    <div dangerouslySetInnerHTML={{ __html: html }} />
-  </Article>
+  <Layout>
+    <Article>
+      <h1>{frontmatter.title} ho!</h1>
+      <div dangerouslySetInnerHTML={{ __html: html }} />
+    </Article>
+  </Layout>
 )
 
 export const query = graphql`
