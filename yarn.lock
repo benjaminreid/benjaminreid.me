@@ -3558,6 +3558,10 @@ download@^7.1.0:
     p-event "^2.1.0"
     pify "^3.0.0"
 
+"dracula-prism@https://github.com/dracula/prism.git":
+  version "0.0.0"
+  resolved "https://github.com/dracula/prism.git#1d41ab73408e3ebb7fb0ecde16e43b2c47957708"
+
 duplexer3@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
